@@ -1,0 +1,65 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Playfair Display", serif;
+  line-height: 1.7;
+}
+body, h1 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1;
+}
+.em {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+  transition: color 0.5s;
+}
+a:hover {
+  color: black;
+}
+header a {
+  display: block;
+  padding: 24px;
+  color: inherit;
+  font-family: Montserrat, sans-serif;
+}
+header a:hover {
+  color: crimson;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+  width: 90%;
+}
+
+.section-3 {
+  background: linear-gradient(#f5edea, #f1e4d1);
+  
+}
+section {
+  padding: 24px 0;
+}
+footer {
+  text-align: center;
+  background: #333;
+  padding: 24px;
+  color: white;
+}
+
+quote {
+  color: #888;
+  font-style: italic;
+  font-size: 24px;
+  padding: 24px;
+  display: inline-block;
+}

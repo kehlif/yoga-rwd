@@ -1,0 +1,147 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  font-family: Playfair Display, serif;
+  line-height: 1.7;
+  border: 12px solid;
+}
+body, nav ul, h1 {
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  text-align: right;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1;
+}
+h2, h3 {
+  margin-top: 0;
+}
+.em {
+  font-style: italic;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: crimson;
+  transition: color 0.5s;
+}
+a:hover {
+  color: black;
+}
+header a {
+  display: block;
+  padding: 24px;
+  color: inherit;
+  font-family: Montserrat, sans-serif;
+
+}
+header a:hover {
+  color: crimson;
+}
+h3, h4, input {
+  font-family: Montserrat, sans-serif;
+}
+
+.section-1 {
+  text-align: center;
+  background-image: url(../images/yoga-main2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 96px 0;
+}
+.section-1 .inner {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px;
+  background: rgba(255,255, 255, .75);
+  border-radius: 2px;
+  box-shadow: 0 10px 50px rgba(0,0,0,.2);
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 940px;
+}
+
+.section-3 {
+  background: linear-gradient(#f5edea, #f1e4d1);
+}
+section {
+  padding: 24px 0;
+}
+footer {
+  text-align: center;
+  background: #333;
+  padding: 24px;
+  color: white;
+}
+quote {
+  color: #888;
+  font-style: italic;
+  font-size: 24px;
+  padding: 24px;
+  display: inline-block;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.container section {
+  padding: 48px;
+  flex: 1;
+  max-width: 420px;
+}
+.container section:first-child,
+.container section:last-child,
+.contact input,
+.contact textarea {
+  background: #f5edea;
+
+}
+.contact label,
+.contact input,
+.contact textarea {
+  display: block;
+  margin-bottom: 24px;
+}
+.contact input,
+.contact textarea {
+  padding: 12px;
+  width: 100%;
+  font-size: 14px;
+  border: none;
+}
+input[type=submit] {
+  background: crimson;
+  
+  color: white;
+}
+.with-details {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid crimson;
+}
+.courses .em {
+  text-align: center;
+  margin: 0;
+}
+.img-float {
+  float:left;
+  margin-right: 24px;
+}
+.img-float + p {
+  margin: 0 0 24px;
+}

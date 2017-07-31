@@ -1,0 +1,54 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  font-family: Playfair Display, serif;
+  line-height: 1.7;
+}
+body, h1 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1;
+}
+.em {
+  font-style: italic;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+  width: 90%;
+}
+
+.section-3 {
+  background: linear-gradient(#f5edea, #f1e4d1);
+  
+}
+section {
+  padding: 24px 0;
+}
+footer {
+  text-align: center;
+  background: #333;
+  padding: 24px;
+  color: white;
+}
+
+quote {
+  color: #888;
+  font-style: italic;
+  font-size: 24px;
+  padding: 24px;
+  display: inline-block;
+}
+
+.img-float {
+  float:left;
+  margin-right: 24px;
+}
+.img-float + p {
+  margin: 0 0 24px;
+}

@@ -1,0 +1,94 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Playfair Display", serif;
+  line-height: 1.7;
+  border-style: solid;
+  border-width: 48px 96px;
+}
+body, h1 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1;
+}
+.em {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+  transition: color 0.5s;
+}
+a:hover {
+  color: black;
+}
+header a {
+  display: block;
+  padding: 24px;
+  color: inherit;
+  font-family: Montserrat, sans-serif;
+}
+header a:hover {
+  color: crimson;
+}
+
+
+.section-1 {
+  background-image: url(../images/yoga-main2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 96px 0;
+  text-align: center;
+}
+
+.section-1 .inner {
+  width: 90%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px;
+  background: rgba(255,255, 255, .75);
+  border-radius: 2px;
+  box-shadow: 0 10px 50px rgba(0,0,0,.2)
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 940px;
+}
+
+.section-3 {
+  background: linear-gradient(#f5edea, #f1e4d1);
+  
+}
+section {
+  padding: 48px 0;
+}
+footer {
+  text-align: center;
+  background: #333;
+  padding: 24px;
+  color: white;
+}
+
+quote {
+  color: #888;
+  font-style: italic;
+  font-size: 24px;
+  padding: 24px;
+  display: inline-block;
+}
+
+.img-float {
+  float:left;
+  margin-right: 24px;
+}
+.img-float + p {
+  margin: 0 0 24px;
+}
