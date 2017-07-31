@@ -11,9 +11,11 @@ responsive iframe
 ### Ex.4
 styles inadaptés à la taille de l'écran (media queries)
 ### Ex.5
-images pour les displays HD (srcset)
+Taille de police (utilisation de wv)
 ### Ex.6
 Menu responsive
+### Ex.7
+Display HD (srcset)
 
 ### /index.html (/css/styles.css)
 toutes les techniques

@@ -36,8 +36,9 @@ header a {
 header a:hover {
   color: crimson;
 }
-
-
+section {
+  padding: 48px 0;
+}
 .section-1 {
   background-image: url(../images/yoga-main2.jpg);
   background-size: cover;
@@ -46,7 +47,6 @@ header a:hover {
   padding: 96px 0;
   text-align: center;
 }
-
 .section-1 .inner {
   width: 90%;
   max-width: 640px;
@@ -56,19 +56,10 @@ header a:hover {
   border-radius: 2px;
   box-shadow: 0 10px 50px rgba(0,0,0,.2)
 }
-
 .wrapper {
   margin: 0 auto;
   width: 90%;
   max-width: 940px;
-}
-
-.section-3 {
-  background: linear-gradient(#f5edea, #f1e4d1);
-  
-}
-section {
-  padding: 48px 0;
 }
 footer {
   text-align: center;
@@ -76,7 +67,6 @@ footer {
   padding: 24px;
   color: white;
 }
-
 quote {
   color: #888;
   font-style: italic;

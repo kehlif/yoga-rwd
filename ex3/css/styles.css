@@ -35,17 +35,12 @@ header a:hover {
   color: crimson;
 }
 
-
 .wrapper {
   margin: 0 auto;
   max-width: 940px;
   width: 90%;
 }
 
-.section-3 {
-  background: linear-gradient(#f5edea, #f1e4d1);
-  
-}
 section {
   padding: 24px 0;
 }

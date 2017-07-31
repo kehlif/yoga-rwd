@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: Playfair Display, serif;
+  font-family: "Playfair Display", serif;
   line-height: 1.7;
 }
 body, h1 {
@@ -25,18 +25,11 @@ a {
 a:hover {
   color: black;
 }
-header a {
-  display: block;
-  padding: 24px;
-  color: inherit;
-  font-family: Montserrat, sans-serif;
-}
-header a:hover {
-  color: crimson;
-}
 
-section {
-  padding: 48px 0;
+h1 {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  font-size: 144px;
 }
 
 .section-1 {
@@ -49,7 +42,8 @@ section {
 }
 
 .section-1 .inner {
-  width: 640px;
+  width: 90%;
+  max-width: 640px;
   margin: 0 auto;
   padding: 48px;
   background: rgba(255,255, 255, .75);
@@ -59,9 +53,17 @@ section {
 
 .wrapper {
   margin: 0 auto;
-  width: 940px;
+  width: 90%;
+  max-width: 940px;
 }
 
+.section-3 {
+  background: linear-gradient(#f5edea, #f1e4d1);
+  
+}
+section {
+  padding: 48px 0;
+}
 footer {
   text-align: center;
   background: #333;
@@ -75,4 +77,12 @@ quote {
   font-size: 24px;
   padding: 24px;
   display: inline-block;
+}
+
+.img-float {
+  float:left;
+  margin-right: 24px;
+}
+.img-float + p {
+  margin: 0 0 24px;
 }
