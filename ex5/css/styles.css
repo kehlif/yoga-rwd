@@ -59,7 +59,7 @@ h1 {
 
 .section-3 {
   background: linear-gradient(#f5edea, #f1e4d1);
-  
+
 }
 section {
   padding: 48px 0;
@@ -85,4 +85,15 @@ quote {
 }
 .img-float + p {
   margin: 0 0 24px;
+}
+
+
+/*@media only screen and (max-width:600px){
+  h1{
+    font-size:10vw;
+  }
+}*/
+
+h1{
+  font-size: 10vw;
 }

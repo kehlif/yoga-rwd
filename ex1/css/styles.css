@@ -76,3 +76,30 @@ quote {
   padding: 24px;
   display: inline-block;
 }
+
+/*@media only screen and (max-width:600px){
+  .section-1 .inner {
+    /*width:100%;*/
+    /*width:auto;
+  }
+  .wrapper{
+    width:auto;
+  }
+
+  main{
+    width:auto;
+  }
+}*/
+
+/* deuxieme methode sans media */
+.section-1 .inner{
+  max-width:100%;
+}
+
+.wrapper{
+  max-width:100%;
+}
+
+main{
+  max-width: 100%;
+}

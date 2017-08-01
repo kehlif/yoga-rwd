@@ -82,3 +82,10 @@ quote {
 .img-float + p {
   margin: 0 0 24px;
 }
+
+@media only screen and (max-width:1000px){
+  html{
+    /*width: 95%;*/
+    border-width:24px 48px;
+  }
+}

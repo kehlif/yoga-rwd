@@ -3,12 +3,14 @@
 <head>
 	<title>Yoga with Jess</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Montserrat" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
 	<header class="site-header">
 		<h1><a href="#" class="">Yoga with Jess</a></h1>
+		<a href="#" id="menu" class="menu">Menu</a>
 		<nav>
 			<ul>
 				<li><a href="#" class="">Home</a></li>
@@ -74,7 +76,7 @@
 			<section id="classes" class="courses">
 				<h3>Available Classes &amp; Prices</h3>
 				<h4>Introduction</h4>
-				<p class="with-details"><span>Beginners Level</span> <span class="">$25/1.5h</span></p>         
+				<p class="with-details"><span>Beginners Level</span> <span class="">$25/1.5h</span></p>
 				<h4>Guided Ashtanga 1</h4>
 				<p class="with-details"><span>Intermediate to Advanced</span> <span class="">$30/2h</span></p>
 				<h4>Mysore Style</h4>
@@ -87,5 +89,13 @@
 		</div>
 	</main>
 	<footer>2017 Yaga &amp; Yoga</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#menu").click(function(){
+			$("nav").toggleClass("nav-visible");
+		});
+	});
+	</script>
 </body>
 </html>

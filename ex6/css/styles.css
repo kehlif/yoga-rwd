@@ -26,11 +26,11 @@ a:hover {
   color: black;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/*header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}*/
 header a {
   display: block;
   padding: 24px;
@@ -43,7 +43,7 @@ header a:hover {
 
 nav ul {
   list-style: none;
-  display: flex;
+  /*display: flex;*/
 }
 .wrapper {
   margin: 0 auto;
@@ -53,7 +53,7 @@ nav ul {
 
 main {
   background: linear-gradient(#f5edea, #f1e4d1);
-  
+
 }
 section {
   padding: 24px 0;
@@ -64,3 +64,47 @@ footer {
   padding: 24px;
   color: white;
 }
+color-red{
+  color:red;
+}
+
+@media only screen and (max-width:767px){
+  nav{
+    background:black;
+    color:white;
+    display:none;
+  }
+
+  .nav-visible{
+    display:block;
+  }
+  .menu-toggle{
+    position:absolute;
+    top:0;
+    right:0;
+  }
+}
+
+/*s'applique aux grands ecrans */
+@media only screen and (min-width:768px){
+  nav ul{
+    display:flex;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-toggle{
+    display:none;
+  }
+
+}
+
+
+
+/*
+.invisible{
+display:none;
+}
+*/
